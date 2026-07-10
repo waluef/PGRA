@@ -1,0 +1,26 @@
+PGRA: Physics Guided Rotation Adaptive Attention for Few-Shot SAR Target Recognition
+Copyright 2026 Binze Hu, Xiayang Xiao, Xu Zhang, Haipeng Wang
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+--------------------------------------------------------------------------------
+Third-party components
+--------------------------------------------------------------------------------
+
+1. Deformable-Convolution-V2-PyTorch (pytorch_1.0.0 branch)
+   Location:  pgra/ops/
+   Upstream:  https://github.com/chengdazhi/Deformable-Convolution-V2-PyTorch
+   License:   MIT (see pgra/ops/LICENSE)
+   Copyright: (c) 2020 Dazhi Cheng
+
+2. torchvision DenseNet primitives
+   Location:  pgra/models/densenet121_pgra.py
+   Upstream:  https://github.com/pytorch/vision
+   License:   BSD-3-Clause
+   Copyright: Copyright (c) Soumith Chintala 2016; PyTorch contributors.
+
+3. PIHA (Physics Inspired Hybrid Attention for SAR Target Recognition)
+   Location:  pgra/datasets/mstar.py, tools/train.py
+   Upstream:  https://github.com/XAI4SAR/PIHA
+   License:   Apache-2.0
+   Copyright: (c) XAI4SAR / Zhongling Huang et al.

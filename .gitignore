@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+
+.vscode/
+.idea/
+*.swp
+
+runs/
+outputs/
+output/
+output1/
+checkpoints/
+*.pth
+*.pt
+
+# Dataset payload — users download the .npz files themselves;
+# only the index list files under data/*/list/ are tracked.
+data/*/img/
+*.npz
+
+.DS_Store
+Thumbs.db
